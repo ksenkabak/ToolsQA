@@ -1,0 +1,27 @@
+This sample test automation framework is built as a Maven project
+applying Behavior Driven Development principles with Cucumber and Junit
+using java as a programming language.
+
+Below is the hierachy of the project:
+project : com.toolsqa
+              src/test/java
+                      com.toolsqa.pages
+                      runners
+                      stepDefinitions
+                      utilities
+              src/test/resources
+                      driver
+                      features
+                      test_data
+              target
+              pom.xml
+              readMe
+ 
+ 
+ 
+ 
+ In order to run this code snippet, please import this project into 
+ Eclipse IDE and update the maven project, then please create a file
+ named "goodjob.jpeg" in local download directory if you use Mac, 
+ so that my code can pick this file and uploads it to the system. 
+ Then open cukesRunner and run as Junit test. Then enjoy!

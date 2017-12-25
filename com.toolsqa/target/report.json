@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2573964803,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the signup page",
+            "match": {
+              "location": "RegisterStepDef.the_user_is_on_the_signup_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1857420137,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "sign up on ToolsQA DemoPage",
+        "description": "",
+        "id": "toolsqa-demopage-registration;sign-up-on-toolsqa-demopage",
+        "after": [
+          {
+            "result": {
+              "duration": 137763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 307182485,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters first name with \"Rita2\" and last name with \"Ricoto2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rita2",
+                  "offset": 33
+                },
+                {
+                  "val": "Ricoto2",
+                  "offset": 60
+                }
+              ],
+              "location": "RegisterStepDef.the_user_enters_first_name_with_and_last_name_with(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256781610,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user chooses maritual status as married and hobby as cricket",
+            "match": {
+              "location": "RegisterStepDef.the_user_chooses_maritual_status_as_married_and_hobby_as_cricket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583338073,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user chooses country as United States",
+            "match": {
+              "location": "RegisterStepDef.the_user_chooses_country_as_United_States()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1731730096,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters his date of birth",
+            "match": {
+              "location": "RegisterStepDef.the_user_enters_his_date_of_birth()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262374944,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user provides his phone number",
+            "match": {
+              "location": "RegisterStepDef.the_user_provides_his_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297986839,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters username and email",
+            "match": {
+              "location": "RegisterStepDef.the_user_enters_username_and_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1601093694,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user chooses profile picture",
+            "match": {
+              "location": "RegisterStepDef.the_user_chooses_profile_picture()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264820493,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user describes about himself",
+            "match": {
+              "location": "RegisterStepDef.the_user_describes_about_himself()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5836203275,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters following passwords and system displays password level message:",
+            "match": {
+              "location": "RegisterStepDef.the_user_enters_following_passwords_and_system_displays_password_level_message(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Invalid",
+                  "abc"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Weak",
+                  "Javajava12"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Medium",
+                  "Abc_12345@#$"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Strong",
+                  "Abc_12345@#-$123"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8440935327,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user submits the application",
+            "match": {
+              "location": "RegisterStepDef.the_user_submits_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154235927,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should see the approval message",
+            "match": {
+              "location": "RegisterStepDef.the_user_should_see_the_aproval_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ToolsQA DemoPage Registration",
+    "description": "",
+    "id": "toolsqa-demopage-registration",
+    "keyword": "Feature",
+    "uri": "registration.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]
