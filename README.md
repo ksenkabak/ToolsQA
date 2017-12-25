@@ -5,21 +5,21 @@ Overall project consist of the following folders and file:
 
 project hierarchy is :
  
-Project : com.disney
-                src/test/java 
-                         pages
-                         runners
-                         stepDefinitions
-                         utilities
-                scr/test/resources
-                         excelTestData
-                         features
-                         properties
-                JRE system library
-                Maven dependencies
-                src
-                target
-                pom.xml
+Project : com.disney -->
+              src/test/java -->
+                         pages -->
+                         runners -->
+                         stepDefinitions -->
+                         utilities -->
+                scr/test/resources -->
+                         excelTestData -->
+                         features -->
+                         properties -->
+                JRE system library -->
+                Maven dependencies -->
+                src -->
+                target -->
+                pom.xml -->
 
 src/test/java: this folder is for the classes where I define my automation script implementation.
  
